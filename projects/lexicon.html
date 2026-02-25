@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Title | Caroline Berney</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <!-- Correct relative path from subfolder -->
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="brand" href="../../index.html">Caroline Berney</a>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a class="active" href="../../projects.html">Projects</a></li>
+        <li><a href="../../currently.html">Currently</a></li>
+        <li><a href="../../resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page">
+
+      <h1>Honeycomb</h1>
+      <p><strong>Tags:</strong> Distributed p2p disastoer communication system</p>
+
+      <p>
+        2–4 sentence description of your project. Explain the problem,
+        what you built, and the main result.
+      </p>
+
+      <hr />
+
+      <h2>Components</h2>
+      <div class="card">
+        <p>
+          <a class="button" href="paper.pdf" target="_blank">Paper (PDF)</a>
+          <a class="button" href="https://github.com/carolineberney/project-repo" target="_blank">Code (GitHub)</a>
+          <a class="button" href="README.html">README</a>
+        </p>
+      </div>
+
+      <h2>Overview</h2>
+      <div class="card">
+        <p>
+          Optional: technical details — dataset size, methods, evaluation metrics,
+          key findings, and limitations.
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Caroline Berney
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
