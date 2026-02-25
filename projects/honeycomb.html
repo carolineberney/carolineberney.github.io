@@ -27,11 +27,28 @@
     <section class="page">
 
       <h1>Honeycomb</h1>
-      <p><strong>Tags:</strong> Distributed p2p disastoer communication system</p>
+      <p><strong>Tags:</strong> Distributed p2p disaster communication system</p>
 
       <p>
-        2–4 sentence description of your project. Explain the problem,
-        what you built, and the main result.
+        Natural disasters such as hurricanes, earthquakes, tornadoes, and wildfires can disrupt reliable
+communication. Cell towers can be damaged, power can fail, and surviving networks often
+become congested as demand spikes. That failure is not just inconvenient—it can be
+life-threatening. People need a way to request medical help, food, and shelter, to coordinate with
+neighbors, and to reach loved ones. At the same time, responders and community groups need a
+way to broadcast time-sensitive updates like evacuation routes, road closures, or where supplies
+are available.
+      </p>
+
+      <p>
+  honeycomb is our response to that gap: a lightweight peer-to-peer communication platform
+designed for disaster environments. Instead of relying on a central server, honeycomb runs as a
+distributed network where every participant is both a client and a relay, avoiding a single point of
+failure or bottleneck. Users broadcast short, text-only messages that propagate through the
+network even when nodes join, leave, or crash. Our core priorities are availability during high
+churn, low overhead suitable for unreliable, low-bandwidth conditions, and scalability as the
+number of users grows. In this paper, we describe honeycomb’s Chord-based ring architecture,
+the design choices that make it self-healing and fault-tolerant, and experiments that evaluate
+recovery time and delivery reliability.
       </p>
 
       <hr />
@@ -40,7 +57,7 @@
       <div class="card">
         <p>
           <a class="button" href="paper.pdf" target="_blank">Paper (PDF)</a>
-          <a class="button" href="https://github.com/carolineberney/project-repo" target="_blank">Code (GitHub)</a>
+          <a class="button" href="https://github.com/carolineberney/honeycomb" target="_blank">Code (GitHub)</a>
           <a class="button" href="README.html">README</a>
         </p>
       </div>
